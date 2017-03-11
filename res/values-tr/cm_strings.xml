@@ -39,20 +39,20 @@
   <!-- Preference link for root appops -->
   <string name="root_appops_title">Root erişimini yönet</string>
   <string name="root_appops_summary">Root kurallarını görüntüle ve kontrol et</string>
-  <!-- About phone screen, LineageOS version -->
-  <string name="mod_version">LineageOS sürümü</string>
+  <!-- About phone screen, AODP version -->
+  <string name="mod_version">AODP sürümü</string>
   <string name="mod_version_default">Bilinmeyen</string>
   <!-- About phone screen, Device model -->
   <string name="device_model">Cihaz modeli</string>
   <!-- About phone screen, Device name -->
   <string name="device_name">Cihaz ismi</string>
-  <!-- About phone screen, LineageOS Api Level -->
-  <string name="mod_api_level">LineageOS API düzeyi</string>
+  <!-- About phone screen, AODP Api Level -->
+  <string name="mod_api_level">AODP API düzeyi</string>
   <string name="mod_api_level_default">Bilinmeyen</string>
   <!-- About phone screen, build date -->
   <string name="build_date">İnşa tarihi</string>
   <!-- CM Updater -->
-  <string name="cmupdate_settings_title">LineageOS güncellemeleri</string>
+  <string name="cmupdate_settings_title">AODP güncellemeleri</string>
   <!-- Names of categories of app ops tabs - extension of AOSP -->
   <string name="app_ops_categories_location">Konum</string>
   <string name="app_ops_categories_personal">Kişisel</string>
@@ -335,7 +335,7 @@
   <!-- Notification importance -->
   <string name="tuner_full_importance_settings">Güç bildirim kontrolleri</string>
   <!-- CM Legal -->
-  <string name="cmlicense_title">LineageOS yasal</string>
+  <string name="cmlicense_title">AODP yasal</string>
   <!-- Format string for fingerprint location message -->
   <string name="security_settings_fingerprint_enroll_find_sensor_message_cm">Telefonunuzdaki <xliff:g id="sensor_location">%1$s</xliff:g> üzerinde parmak izi sensörünü bulun.</string>
   <!-- Fingerprint sensor locations -->

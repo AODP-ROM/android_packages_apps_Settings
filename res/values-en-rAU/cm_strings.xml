@@ -37,17 +37,17 @@
   <string name="root_access_adb">ADB only</string>
   <string name="root_access_all">Apps and ADB</string>
   <!-- Preference link for root appops -->
-  <!-- About phone screen, LineageOS version -->
-  <string name="mod_version">LineageOS version</string>
+  <!-- About phone screen, AODP version -->
+  <string name="mod_version">AODP version</string>
   <string name="mod_version_default">Unknown</string>
   <!-- About phone screen, Device model -->
   <!-- About phone screen, Device name -->
-  <!-- About phone screen, LineageOS Api Level -->
+  <!-- About phone screen, AODP Api Level -->
   <string name="mod_api_level_default">Unknown</string>
   <!-- About phone screen, build date -->
   <string name="build_date">Build date</string>
   <!-- CM Updater -->
-  <string name="cmupdate_settings_title">LineageOS updates</string>
+  <string name="cmupdate_settings_title">AODP updates</string>
   <!-- Names of categories of app ops tabs - extension of AOSP -->
   <string name="app_ops_categories_location">Location</string>
   <string name="app_ops_categories_personal">Personal</string>
@@ -234,7 +234,7 @@
   <!-- NFC PreferenceCategory title -->
   <!-- Notification importance -->
   <!-- CM Legal -->
-  <string name="cmlicense_title">LineageOS legal</string>
+  <string name="cmlicense_title">AODP legal</string>
   <!-- Format string for fingerprint location message -->
   <!-- Fingerprint sensor locations -->
   <!-- Wi-Fi region code -->

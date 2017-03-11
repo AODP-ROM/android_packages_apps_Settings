@@ -37,19 +37,19 @@
   <string name="root_access_adb">Ainult ADB</string>
   <string name="root_access_all">Rakendused ja ADB</string>
   <!-- Preference link for root appops -->
-  <!-- About phone screen, LineageOS version -->
-  <string name="mod_version">LineageOS versioon</string>
+  <!-- About phone screen, AODP version -->
+  <string name="mod_version">AODP versioon</string>
   <string name="mod_version_default">Teadmata</string>
   <!-- About phone screen, Device model -->
   <string name="device_model">Seadme mudel</string>
   <!-- About phone screen, Device name -->
   <string name="device_name">Seadme nimi</string>
-  <!-- About phone screen, LineageOS Api Level -->
+  <!-- About phone screen, AODP Api Level -->
   <string name="mod_api_level_default">Teadmata</string>
   <!-- About phone screen, build date -->
   <string name="build_date">Kooste kuupäev</string>
   <!-- CM Updater -->
-  <string name="cmupdate_settings_title">LineageOS uuendused</string>
+  <string name="cmupdate_settings_title">AODP uuendused</string>
   <!-- Names of categories of app ops tabs - extension of AOSP -->
   <string name="app_ops_categories_location">Asukoht</string>
   <string name="app_ops_categories_personal">Isiklik</string>
@@ -245,7 +245,7 @@
   <string name="nfc_title_category">NFC</string>
   <!-- Notification importance -->
   <!-- CM Legal -->
-  <string name="cmlicense_title">LineageOS juriidiline info</string>
+  <string name="cmlicense_title">AODP juriidiline info</string>
   <!-- Format string for fingerprint location message -->
   <!-- Fingerprint sensor locations -->
   <!-- Wi-Fi region code -->

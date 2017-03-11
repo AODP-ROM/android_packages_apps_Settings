@@ -34,7 +34,7 @@
                     android:targetClass="@string/additional_system_update_menu" />
         </PreferenceScreen>
 
-        <!-- LineageOS Updates -->
+        <!-- AODP Updates -->
         <cyanogenmod.preference.SelfRemovingPreference android:key="cm_updates"
                 android:title="@string/cmupdate_settings_title"
                 android:summary="@string/system_update_settings_list_item_summary"
@@ -118,7 +118,7 @@
                 android:title="@string/mod_version"
                 android:summary="@string/mod_version_default" />
 
-        <!-- CyanogenMod API Version -->
+        <!-- AODP API Version -->
         <Preference android:key="mod_api_level"
                 android:enabled="false"
                 android:shouldDisableView="false"

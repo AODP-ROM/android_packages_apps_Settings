@@ -36,20 +36,20 @@
   <string name="root_access_adb">ADB لا</string>
   <string name="root_access_all">Apps ۋە ADB</string>
   <!-- Preference link for root appops -->
-  <!-- About phone screen, LineageOS version -->
-  <string name="mod_version">LineageOS نەشرى</string>
+  <!-- About phone screen, AODP version -->
+  <string name="mod_version">AODP نەشرى</string>
   <string name="mod_version_default">يوچۇن</string>
   <!-- About phone screen, Device model -->
   <string name="device_model">ئۈسكىنە تىپى</string>
   <!-- About phone screen, Device name -->
   <string name="device_name">ئۈسكۈنە ئاتى</string>
-  <!-- About phone screen, LineageOS Api Level -->
-  <string name="mod_api_level">LineageOS نىڭ API دەرىجىسى</string>
+  <!-- About phone screen, AODP Api Level -->
+  <string name="mod_api_level">AODP نىڭ API دەرىجىسى</string>
   <string name="mod_api_level_default">يوچۇن</string>
   <!-- About phone screen, build date -->
   <string name="build_date">ھاسىللىغان چېسلا</string>
   <!-- CM Updater -->
-  <string name="cmupdate_settings_title">LineageOS يېڭىلانمىلار</string>
+  <string name="cmupdate_settings_title">AODP يېڭىلانمىلار</string>
   <!-- Names of categories of app ops tabs - extension of AOSP -->
   <string name="app_ops_categories_location">ئورنى</string>
   <string name="app_ops_categories_personal">شەخسىي</string>
@@ -304,7 +304,7 @@
   <string name="nfc_title_category">NFC</string>
   <!-- Notification importance -->
   <!-- CM Legal -->
-  <string name="cmlicense_title">LineageOS قانۇن ئۇچۇرى</string>
+  <string name="cmlicense_title">AODP قانۇن ئۇچۇرى</string>
   <!-- Format string for fingerprint location message -->
   <!-- Fingerprint sensor locations -->
   <!-- Wi-Fi region code -->

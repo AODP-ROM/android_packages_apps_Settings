@@ -38,19 +38,19 @@
   <string name="root_access_adb">Tik „Android“ derinimas</string>
   <string name="root_access_all">Programos ir „Android“ derinimas</string>
   <!-- Preference link for root appops -->
-  <!-- About phone screen, LineageOS version -->
-  <string name="mod_version">„LineageOS“ versija</string>
+  <!-- About phone screen, AODP version -->
+  <string name="mod_version">„AODP“ versija</string>
   <string name="mod_version_default">Nežinoma</string>
   <!-- About phone screen, Device model -->
   <string name="device_model">Įrenginio modelis</string>
   <!-- About phone screen, Device name -->
   <string name="device_name">Įrenginio pavadinimas</string>
-  <!-- About phone screen, LineageOS Api Level -->
+  <!-- About phone screen, AODP Api Level -->
   <string name="mod_api_level_default">Nežinoma</string>
   <!-- About phone screen, build date -->
   <string name="build_date">Surinkimo data</string>
   <!-- CM Updater -->
-  <string name="cmupdate_settings_title">„LineageOS“ atnaujinimai</string>
+  <string name="cmupdate_settings_title">„AODP“ atnaujinimai</string>
   <!-- Names of categories of app ops tabs - extension of AOSP -->
   <string name="app_ops_categories_location">Vieta</string>
   <string name="app_ops_categories_personal">Asmeninės</string>
@@ -246,7 +246,7 @@
   <string name="nfc_title_category">NFC</string>
   <!-- Notification importance -->
   <!-- CM Legal -->
-  <string name="cmlicense_title">Teisinė „LineageOS“ informacija</string>
+  <string name="cmlicense_title">Teisinė „AODP“ informacija</string>
   <!-- Format string for fingerprint location message -->
   <!-- Fingerprint sensor locations -->
   <!-- Wi-Fi region code -->

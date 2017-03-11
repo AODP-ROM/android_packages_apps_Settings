@@ -40,20 +40,20 @@
   <!-- Preference link for root appops -->
   <string name="root_appops_title">Керування root правами</string>
   <string name="root_appops_summary">Перегляд та керування root правилами</string>
-  <!-- About phone screen, LineageOS version -->
-  <string name="mod_version">Версія LineageOS</string>
+  <!-- About phone screen, AODP version -->
+  <string name="mod_version">Версія AODP</string>
   <string name="mod_version_default">Невідомо</string>
   <!-- About phone screen, Device model -->
   <string name="device_model">Модель пристрою</string>
   <!-- About phone screen, Device name -->
   <string name="device_name">Назва пристрою</string>
-  <!-- About phone screen, LineageOS Api Level -->
-  <string name="mod_api_level">Рівень LineageOS API</string>
+  <!-- About phone screen, AODP Api Level -->
+  <string name="mod_api_level">Рівень AODP API</string>
   <string name="mod_api_level_default">Невідомо</string>
   <!-- About phone screen, build date -->
   <string name="build_date">Дата збірки</string>
   <!-- CM Updater -->
-  <string name="cmupdate_settings_title">Оновлення LineageOS</string>
+  <string name="cmupdate_settings_title">Оновлення AODP</string>
   <!-- Names of categories of app ops tabs - extension of AOSP -->
   <string name="app_ops_categories_location">Місцезнаходження</string>
   <string name="app_ops_categories_personal">Особисті дані</string>
@@ -336,7 +336,7 @@
   <!-- Notification importance -->
   <string name="tuner_full_importance_settings">Елементи керування сповіщеннями</string>
   <!-- CM Legal -->
-  <string name="cmlicense_title">Політика конфіденційності LineageOS</string>
+  <string name="cmlicense_title">Політика конфіденційності AODP</string>
   <!-- Format string for fingerprint location message -->
   <string name="security_settings_fingerprint_enroll_find_sensor_message_cm">Сканер відбитку пальців розташовано на <xliff:g id="sensor_location">%1$s</xliff:g> вашого телефону.</string>
   <!-- Fingerprint sensor locations -->

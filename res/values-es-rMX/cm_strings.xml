@@ -23,11 +23,11 @@
   <!-- Launch Dev Tools -->
   <!-- Setting checkbox title for root access -->
   <!-- Preference link for root appops -->
-  <!-- About phone screen, LineageOS version -->
+  <!-- About phone screen, AODP version -->
   <!-- About phone screen, Device model -->
   <!-- About phone screen, Device name -->
-  <!-- About phone screen, LineageOS Api Level -->
-  <string name="mod_api_level">Nivel de API de LineageOS</string>
+  <!-- About phone screen, AODP Api Level -->
+  <string name="mod_api_level">Nivel de API de AODP</string>
   <!-- About phone screen, build date -->
   <!-- CM Updater -->
   <!-- Names of categories of app ops tabs - extension of AOSP -->
