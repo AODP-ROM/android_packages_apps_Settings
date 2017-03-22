@@ -372,6 +372,8 @@
   <string name="hotstpot_inactivity_timeout_never_summary_text">Το φορητό Wi\u2011Fi hotspot δεν θα απενεργοποιείται ποτέ</string>
   <string name="hotstpot_inactivity_timeout_summary_text">Το φορητό Wi\u2011Fi hotspot θα απενεργοποιείται μετά από <xliff:g id="timeout">%1$s</xliff:g></string>
   <!-- Per-app data restrictions -->
+  <string name="data_usage_app_restrict_data_category_title">Πρόσβαση δεδομένων κινητής τηλεφωνίας</string>
+  <string name="data_usage_app_restrict_wifi_category_title">Πρόσβαση δεδομένων Wi\u2011Fi</string>
   <!-- Title for switch to block app data usage [CHAR LIMIT=30] -->
   <!-- Summary for switch to block app data usage [CHAR LIMIT=NONE] -->
   <!-- Title for switch to block app data usage [CHAR LIMIT=30] -->
@@ -379,10 +381,30 @@
   <!-- Volume link notification -->
   <string name="volume_link_notification_title">Σύνδεση εντάσεων ήχου κλήσης &amp; ειδοποιήσεων</string>
   <!-- Launch music player when headset is connected -->
+  <string name="headset_connect_player_title">Εκκίνηση εφαρμογής μουσικής</string>
+  <string name="headset_connect_player_summary">Εκκίνηση της προεπιλεγμένης εφαρμογής μουσικής κατά τη σύνδεση ακουστικών</string>
   <!-- Update recovery -->
+  <string name="update_recovery_title">Ενημέρωση recovery</string>
+  <string name="update_recovery_summary">Ενημέρωση της προεγκατεστημένης recovery με τις ενημερώσεις συστήματος</string>
   <string name="update_recovery_on_warning">ΣΗΜΕΙΩΣΗ: Όταν αυτή η λειτουργία είναι ενεργοποιημένη, η εγκατεστημένη recovery σας θα αντικατασταθεί με αυτήν που περιλαμβάνεται στην τρέχουσα έκδοση του το λειτουργικού συστήματος.\n\nΗ recovery θα ενημερώνεται μαζί με τις αναβαθμίσεις στο σύστημά σας, βοηθώντας να εξασφαλισθεί η συμβατότητα με μελλοντικές εκδόσεις.\n\nΘέλετε να ενεργοποιήσετε αυτήν τη λειτουργία;</string>
   <string name="update_recovery_off_warning">ΠΡΟΣΟΧΗ: Όταν αυτή η λειτουργία είναι απενεργοποιημένη, η εγκατεστημένη recovery σας δεν θα ενημερώνεται με τις αναβαθμίσεις του λειτουργικού συστήματος.\n\nΕνδέχεται να μην είναι η δυνατή η εγκατάσταση μελλοντικών ενημερώσεων με ξεπερασμένες ή τροποποιημένες εκδόσεις recovery.\n\nΘέλετε πράγματι να απενεργοποιήσετε αυτήν τη λειτουργία;</string>
   <!-- Status bar - double tap to sleep -->
   <string name="status_bar_double_tap_to_sleep_title">Διπλό χτύπημα για αναστολή</string>
   <string name="status_bar_double_tap_to_sleep_summary">Διπλό χτύπημα στη γραμμή κατάστασης για αναστολή της συσκευής</string>
+  <string name="sim_enabler_summary"><xliff:g id="displayName">%1$s</xliff:g> - <xliff:g id="status" example="disabled">%2$s</xliff:g></string>
+  <string name="sim_enabled">ενεργή</string>
+  <string name="sim_disabled">απενεργοποιημένη</string>
+  <string name="sim_missing">απούσα ή ελαττωματική</string>
+  <string name="sim_enabler_need_disable_sim">Η κάρτα SIM θα απενεργοποιηθεί. Θέλετε να συνεχίσετε;</string>
+  <string name="sim_enabler_will_disable_sim_title">Προσοχή</string>
+  <string name="sim_enabler_need_switch_data_service">Αυτή η SIM θα απενεργοποιηθεί και η SIM <xliff:g id="slotid">%1$s</xliff:g> θα χρησιμοποιηθεί για υπηρεσίες δεδομένων. Είστε βέβαιοι ότι θέλετε να συνεχίσετε;</string>
+  <string name="sim_enabler_airplane_on">Δεν είναι δυνατή η εκτέλεση της ενέργειας κατά τη λειτουργία πτήσης.</string>
+  <string name="sim_enabler_in_call">Δεν είναι δυνατή η εκτέλεση της ενέργειας κατά τη διάρκεια μιας κλήσης.</string>
+  <string name="sim_enabler_both_inactive">Δεν μπορείτε να απενεργοποιήσετε όλες τις κάρτες SIM</string>
+  <string name="sim_enabler_enabling">Ενεργοποίηση\u2026</string>
+  <string name="sim_enabler_disabling">Απενεργοποίηση\u2026</string>
+  <string name="sub_activate_success">Η SIM ενεργοποιήθηκε.</string>
+  <string name="sub_activate_failed">Ανεπιτυχής ενεργοποίηση.</string>
+  <string name="sub_deactivate_success">Η SIM απενεργοποιήθηκε.</string>
+  <string name="sub_deactivate_failed">Ανεπιτυχής απενεργοποίηση.</string>
 </resources>
