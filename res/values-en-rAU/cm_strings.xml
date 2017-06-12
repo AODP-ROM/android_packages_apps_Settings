@@ -45,13 +45,9 @@
   <!-- About phone screen, Device model -->
   <string name="device_model">Device model</string>
   <!-- About phone screen, Device name -->
-<<<<<<< HEAD
-  <!-- About phone screen, AODP Api Level -->
-=======
   <string name="device_name">Device name</string>
-  <!-- About phone screen, LineageOS Api Level -->
-  <string name="mod_api_level">LineageOS API level</string>
->>>>>>> 9d0198fee223e4b1e19b5ab2d35c0e6fa5394cd2
+  <!-- About phone screen, AODP Api Level -->
+  <string name="mod_api_level">AODP API level</string>
   <string name="mod_api_level_default">Unknown</string>
   <!-- About phone screen, build date -->
   <string name="build_date">Build date</string>
