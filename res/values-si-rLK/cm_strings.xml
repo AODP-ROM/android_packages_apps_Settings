@@ -188,6 +188,14 @@
   <string name="device_hostname">උපාංගයේ ආගන්තුක නාමය</string>
   <!-- Increasing ring tone volume -->
   <!-- Allow vibration in zen mode -->
+  <!-- Zen mode allowed event setting summary items -->
+  <!-- [CHAR LIMIT=50] Like zen_mode_reminders, but part of a list, so lower case if needed-->
+  <!-- [CHAR LIMIT=50] Like zen_mode_events, but part of a list, so lower case if needed -->
+  <!-- [CHAR LIMIT=50] Like zen_mode_all_callers, but part of a list, so lower case if needed -->
+  <!-- [CHAR LIMIT=50] Like zen_mode_selected_callers, but part of a list, so lower case if needed -->
+  <!-- [CHAR LIMIT=50] Like zen_mode_repeat_callers, but part of a list, so lower case if needed -->
+  <!-- [CHAR LIMIT=50] Like zen_mode_all_messages, but part of a list, so lower case if needed -->
+  <!-- [CHAR LIMIT=50] Like zen_mode_selected_messages, but part of a list, so lower case if needed -->
   <!-- Notification sound timeout -->
   <!-- MSIM SIM status -->
   <!-- NFC PreferenceCategory title -->
@@ -203,7 +211,6 @@
   <string name="wake_when_plugged_or_unplugged_title">පේණුගත කලවිට ඇහැරවන්න</string>
   <string name="wake_when_plugged_or_unplugged_summary">බල මූලාශ්‍රය සම්බන්ධ කිරීමේදී හෝ විසන්ධි කිරීමේදී තිරය ඇහැරවන්න</string>
   <!-- Heads-up -->
-  <!-- Encryption password -->
   <!-- Tethering & portable hotspot other category -->
   <!-- Wi-Fi tethering inactivity timeout -->
   <!-- Per-app data restrictions -->
@@ -216,4 +223,9 @@
   <!-- Update recovery -->
   <!-- Status bar - double tap to sleep -->
   <string name="status_bar_double_tap_to_sleep_title">දෙවරක් තට්ටුකර නිදිකරවන්න</string>
+  <!-- About phone settings screen, setting option dialog title to show regulatory information [CHAR LIMIT=25] -->
+  <!-- SAR information -->
+  <string name="maximum_head_level">හිස: %1$s W/kg</string>
+  <string name="maximum_body_level">සිරුර: %1$s W/kg</string>
+  <!-- IC Codes -->
 </resources>

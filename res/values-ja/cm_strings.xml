@@ -313,6 +313,21 @@
   <string name="zen_mode_vibration_never">振動しない</string>
   <string name="zen_mode_vibration_calls_only">着信のみ振動する</string>
   <string name="zen_mode_vibration_calls_and_notifications">着信と通知で振動する</string>
+  <!-- Zen mode allowed event setting summary items -->
+  <!-- [CHAR LIMIT=50] Like zen_mode_reminders, but part of a list, so lower case if needed-->
+  <string name="zen_mode_summary_reminders">リマインダー</string>
+  <!-- [CHAR LIMIT=50] Like zen_mode_events, but part of a list, so lower case if needed -->
+  <string name="zen_mode_summary_events">予定</string>
+  <!-- [CHAR LIMIT=50] Like zen_mode_all_callers, but part of a list, so lower case if needed -->
+  <string name="zen_mode_summary_all_callers">すべての発信者</string>
+  <!-- [CHAR LIMIT=50] Like zen_mode_selected_callers, but part of a list, so lower case if needed -->
+  <string name="zen_mode_summary_selected_callers">選択した発信者</string>
+  <!-- [CHAR LIMIT=50] Like zen_mode_repeat_callers, but part of a list, so lower case if needed -->
+  <string name="zen_mode_summary_repeat_callers">同一発信者による再発信</string>
+  <!-- [CHAR LIMIT=50] Like zen_mode_all_messages, but part of a list, so lower case if needed -->
+  <string name="zen_mode_summary_all_messages">すべてのメッセージ</string>
+  <!-- [CHAR LIMIT=50] Like zen_mode_selected_messages, but part of a list, so lower case if needed -->
+  <string name="zen_mode_summary_selected_messages">選択したメッセージ</string>
   <!-- Notification sound timeout -->
   <string name="app_notification_sound_timeout_title">通知音の最小間隔</string>
   <string name="app_notification_sound_timeout_summary_template"><xliff:g id="duration">%1$s</xliff:g>間に1回以上の通知音またはバイブレーションを許可しない</string>
@@ -354,12 +369,6 @@
   <!-- Heads-up -->
   <string name="heads_up_notifications_enabled_title">ヘッドアップ</string>
   <string name="heads_up_notifications_enabled_summary">小さなフローティングウインドウに重要な通知を表示する</string>
-  <!-- Encryption password -->
-  <string name="crypt_keeper_change_password_title">暗号化パスワードの変更</string>
-  <string name="crypt_keeper_change_password_summary">端末の暗号化に使用される暗号化パスワードを変更します</string>
-  <string name="crypt_keeper_choose_your_password_header">暗号化パスワードを設定する</string>
-  <string name="crypt_keeper_replace_password_title">暗号化パスワードを変更する</string>
-  <string name="crypt_keeper_replace_password_summary">分割された暗号化パスワードを削除します</string>
   <!-- Tethering & portable hotspot other category -->
   <string name="tethering_other_category_text">その他</string>
   <!-- Wi-Fi tethering inactivity timeout -->
@@ -410,4 +419,11 @@
   <string name="sub_activate_failed">アクティベートできませんでした。</string>
   <string name="sub_deactivate_success">SIMをアクティベート解除しました。</string>
   <string name="sub_deactivate_failed">アクティベート解除できませんでした。</string>
+  <!-- About phone settings screen, setting option dialog title to show regulatory information [CHAR LIMIT=25] -->
+  <!-- SAR information -->
+  <string name="maximum_head_level">頭部: %1$s W/kg</string>
+  <string name="maximum_body_level">身体: %1$s W/kg</string>
+  <!-- IC Codes -->
+  <string name="ic_code_model">モデル: %1$s</string>
+  <string name="ic_code_full">IC: %1$s</string>
 </resources>

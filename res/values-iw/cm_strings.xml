@@ -19,10 +19,10 @@
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
   <!-- [CHAR LIMIT=NONE] Device Info screen. Countdown for user taps to enable development settings -->
   <plurals name="show_dev_countdown_cm">
-    <item quantity="one">רק עוד צעד <xliff:g id="step_count">%1$d</xliff:g> מהפעלת אפשרויות מפתח.</item>
-    <item quantity="two">רק עוד <xliff:g id="step_count">%1$d</xliff:g> צעדים מהפעלת אפשרויות מפתח.</item>
-    <item quantity="many">רק עוד <xliff:g id="step_count">%1$d</xliff:g> צעדים מהפעלת אפשרויות מפתח.</item>
-    <item quantity="other">רק עוד <xliff:g id="step_count">%1$d</xliff:g> צעדים מהפעלת אפשרויות מפתח.</item>
+    <item quantity="one">אתם נמצאים רק עוד צעד <xliff:g id="step_count">%1$d</xliff:g> מהפעלת אפשרויות מפתח.</item>
+    <item quantity="two">אתם נמצאים רק עוד <xliff:g id="step_count">%1$d</xliff:g> צעדים מהפעלת אפשרויות מפתח.</item>
+    <item quantity="many">אתם נמצאים רק עוד <xliff:g id="step_count">%1$d</xliff:g> צעדים מהפעלת אפשרויות מפתח.</item>
+    <item quantity="other">אתם נמצאים רק עוד <xliff:g id="step_count">%1$d</xliff:g> צעדים מהפעלת אפשרויות מפתח.</item>
   </plurals>
   <!-- [CHAR LIMIT=NONE] Device Info screen. Confirmation that developer settings are enabled -->
   <string name="show_dev_on_cm">אפשרויות מפתח פעילות!</string>
@@ -316,6 +316,21 @@
   <string name="zen_mode_vibration_never">אל תרטוט</string>
   <string name="zen_mode_vibration_calls_only">רטט רק עבור שיחות</string>
   <string name="zen_mode_vibration_calls_and_notifications">רטט עבור שיחות והתראות</string>
+  <!-- Zen mode allowed event setting summary items -->
+  <!-- [CHAR LIMIT=50] Like zen_mode_reminders, but part of a list, so lower case if needed-->
+  <string name="zen_mode_summary_reminders">תזכורות</string>
+  <!-- [CHAR LIMIT=50] Like zen_mode_events, but part of a list, so lower case if needed -->
+  <string name="zen_mode_summary_events">אירועים</string>
+  <!-- [CHAR LIMIT=50] Like zen_mode_all_callers, but part of a list, so lower case if needed -->
+  <string name="zen_mode_summary_all_callers">כל המתקשרים</string>
+  <!-- [CHAR LIMIT=50] Like zen_mode_selected_callers, but part of a list, so lower case if needed -->
+  <string name="zen_mode_summary_selected_callers">מתקשרים נבחרים</string>
+  <!-- [CHAR LIMIT=50] Like zen_mode_repeat_callers, but part of a list, so lower case if needed -->
+  <string name="zen_mode_summary_repeat_callers">מתקשרים חוזרים</string>
+  <!-- [CHAR LIMIT=50] Like zen_mode_all_messages, but part of a list, so lower case if needed -->
+  <string name="zen_mode_summary_all_messages">כל ההודעות</string>
+  <!-- [CHAR LIMIT=50] Like zen_mode_selected_messages, but part of a list, so lower case if needed -->
+  <string name="zen_mode_summary_selected_messages">הודעות נבחרות</string>
   <!-- Notification sound timeout -->
   <string name="app_notification_sound_timeout_title">זמן מינימלי בין צלילי התראות</string>
   <string name="app_notification_sound_timeout_summary_template">אפשר צלילים או רטט לא יותר מפעם אחת בכל <xliff:g id="duration">%1$s</xliff:g></string>
@@ -357,12 +372,6 @@
   <!-- Heads-up -->
   <string name="heads_up_notifications_enabled_title">התראות קופצות</string>
   <string name="heads_up_notifications_enabled_summary">הראה התראות חשובות בחלון צף קטן</string>
-  <!-- Encryption password -->
-  <string name="crypt_keeper_change_password_title">שנה סיסמת הצפנה</string>
-  <string name="crypt_keeper_change_password_summary">שנה את הסיסמה המשומשת להצפנת המכשיר</string>
-  <string name="crypt_keeper_choose_your_password_header">הגדר סיסמת הצפנה</string>
-  <string name="crypt_keeper_replace_password_title">החלף סיסמת הצפנה</string>
-  <string name="crypt_keeper_replace_password_summary">הסר את סיסמת ההצפנה הנפרדת</string>
   <!-- Tethering & portable hotspot other category -->
   <string name="tethering_other_category_text">אחר</string>
   <!-- Wi-Fi tethering inactivity timeout -->
@@ -413,4 +422,11 @@
   <string name="sub_activate_failed">הפעלה נכשלה.</string>
   <string name="sub_deactivate_success">SIM בוטל.</string>
   <string name="sub_deactivate_failed">ביטול הפעלה נכשלה.</string>
+  <!-- About phone settings screen, setting option dialog title to show regulatory information [CHAR LIMIT=25] -->
+  <!-- SAR information -->
+  <string name="maximum_head_level">ראש: %1$s  W/kg</string>
+  <string name="maximum_body_level">גוף: %1$s W/kg</string>
+  <!-- IC Codes -->
+  <string name="ic_code_model">דגם: %1$s</string>
+  <string name="ic_code_full">IC: %1$s</string>
 </resources>

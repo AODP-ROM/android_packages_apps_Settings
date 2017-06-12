@@ -231,6 +231,14 @@
   <string name="increasing_ring_min_volume_title">वोल्यूम को शुरू करें</string>
   <string name="increasing_ring_ramp_up_time_title">समय को बढ़ाएँ</string>
   <!-- Allow vibration in zen mode -->
+  <!-- Zen mode allowed event setting summary items -->
+  <!-- [CHAR LIMIT=50] Like zen_mode_reminders, but part of a list, so lower case if needed-->
+  <!-- [CHAR LIMIT=50] Like zen_mode_events, but part of a list, so lower case if needed -->
+  <!-- [CHAR LIMIT=50] Like zen_mode_all_callers, but part of a list, so lower case if needed -->
+  <!-- [CHAR LIMIT=50] Like zen_mode_selected_callers, but part of a list, so lower case if needed -->
+  <!-- [CHAR LIMIT=50] Like zen_mode_repeat_callers, but part of a list, so lower case if needed -->
+  <!-- [CHAR LIMIT=50] Like zen_mode_all_messages, but part of a list, so lower case if needed -->
+  <!-- [CHAR LIMIT=50] Like zen_mode_selected_messages, but part of a list, so lower case if needed -->
   <!-- Notification sound timeout -->
   <!-- MSIM SIM status -->
   <string name="sim_card_status_title">सिम %d स्थिति</string>
@@ -254,7 +262,6 @@
   <string name="wake_when_plugged_or_unplugged_title">प्लग करने पर जागना</string>
   <string name="wake_when_plugged_or_unplugged_summary">पावर स्रोत से कनेक्ट करते समय या उससे डिसकनेक्ट करते समय स्क्रीन को चालू करें</string>
   <!-- Heads-up -->
-  <!-- Encryption password -->
   <!-- Tethering & portable hotspot other category -->
   <!-- Wi-Fi tethering inactivity timeout -->
   <!-- Per-app data restrictions -->
@@ -276,4 +283,11 @@
   <string name="sim_enabler_airplane_on">विमान मोड चालू होने पर यह कार्य करने में असमर्थ।</string>
   <string name="sim_enabler_in_call">कॉल चालू होने पर यह कार्य करने में असमर्थ।</string>
   <string name="sim_enabler_both_inactive">सब सिम कार्डों को अक्षम नहीं कर सकते</string>
+  <!-- About phone settings screen, setting option dialog title to show regulatory information [CHAR LIMIT=25] -->
+  <!-- SAR information -->
+  <string name="maximum_head_level">शीर्ष: %1$s W/kg</string>
+  <string name="maximum_body_level">धड़: %1$s W/kg</string>
+  <!-- IC Codes -->
+  <string name="ic_code_model">मॉडेल: %1$s</string>
+  <string name="ic_code_full">आईसी: %1$s</string>
 </resources>

@@ -314,6 +314,21 @@
   <string name="zen_mode_vibration_never">Non vibrare</string>
   <string name="zen_mode_vibration_calls_only">Vibra solo per chiamate</string>
   <string name="zen_mode_vibration_calls_and_notifications">Vibra per chiamate e notifiche</string>
+  <!-- Zen mode allowed event setting summary items -->
+  <!-- [CHAR LIMIT=50] Like zen_mode_reminders, but part of a list, so lower case if needed-->
+  <string name="zen_mode_summary_reminders">promemoria</string>
+  <!-- [CHAR LIMIT=50] Like zen_mode_events, but part of a list, so lower case if needed -->
+  <string name="zen_mode_summary_events">eventi</string>
+  <!-- [CHAR LIMIT=50] Like zen_mode_all_callers, but part of a list, so lower case if needed -->
+  <string name="zen_mode_summary_all_callers">tutti i chiamanti</string>
+  <!-- [CHAR LIMIT=50] Like zen_mode_selected_callers, but part of a list, so lower case if needed -->
+  <string name="zen_mode_summary_selected_callers">chiamanti selezionati</string>
+  <!-- [CHAR LIMIT=50] Like zen_mode_repeat_callers, but part of a list, so lower case if needed -->
+  <string name="zen_mode_summary_repeat_callers">chiamate ripetute</string>
+  <!-- [CHAR LIMIT=50] Like zen_mode_all_messages, but part of a list, so lower case if needed -->
+  <string name="zen_mode_summary_all_messages">tutti i messaggi</string>
+  <!-- [CHAR LIMIT=50] Like zen_mode_selected_messages, but part of a list, so lower case if needed -->
+  <string name="zen_mode_summary_selected_messages">contatti selezionati</string>
   <!-- Notification sound timeout -->
   <string name="app_notification_sound_timeout_title">Tempo minimo tra suoni di notifica</string>
   <string name="app_notification_sound_timeout_summary_template">Consenti suoni o vibrazioni non più di una volta ogni <xliff:g id="duration">%1$s</xliff:g></string>
@@ -355,12 +370,6 @@
   <!-- Heads-up -->
   <string name="heads_up_notifications_enabled_title">Heads-up</string>
   <string name="heads_up_notifications_enabled_summary">Visualizza le notifiche prioritarie in una piccola finestra fluttuante</string>
-  <!-- Encryption password -->
-  <string name="crypt_keeper_change_password_title">Cambia password per la crittografia</string>
-  <string name="crypt_keeper_change_password_summary">Cambia la password utilizzata per la crittografia del dispositivo</string>
-  <string name="crypt_keeper_choose_your_password_header">Imposta password crittografia</string>
-  <string name="crypt_keeper_replace_password_title">Sotituisci password crittografia</string>
-  <string name="crypt_keeper_replace_password_summary">Rimuovi la password per la crittografia separata</string>
   <!-- Tethering & portable hotspot other category -->
   <string name="tethering_other_category_text">Altro</string>
   <!-- Wi-Fi tethering inactivity timeout -->
@@ -411,4 +420,11 @@
   <string name="sub_activate_failed">Attivazione fallita.</string>
   <string name="sub_deactivate_success">SIM disattivata.</string>
   <string name="sub_deactivate_failed">Disattivazione fallita.</string>
+  <!-- About phone settings screen, setting option dialog title to show regulatory information [CHAR LIMIT=25] -->
+  <!-- SAR information -->
+  <string name="maximum_head_level">Testa: %1$s W/kg</string>
+  <string name="maximum_body_level">Corpo: %1$s W/kg</string>
+  <!-- IC Codes -->
+  <string name="ic_code_model">Modello: %1$s</string>
+  <string name="ic_code_full">IC: %1$s</string>
 </resources>

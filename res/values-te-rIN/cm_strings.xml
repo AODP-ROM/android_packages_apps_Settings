@@ -293,6 +293,18 @@
   <string name="increasing_ring_min_volume_title">ప్రారంభ వాల్యూమ్</string>
   <string name="increasing_ring_ramp_up_time_title">రాంప్-అప్ సమయం</string>
   <!-- Allow vibration in zen mode -->
+  <!-- Zen mode allowed event setting summary items -->
+  <!-- [CHAR LIMIT=50] Like zen_mode_reminders, but part of a list, so lower case if needed-->
+  <string name="zen_mode_summary_reminders">జ్ఞాపికలు</string>
+  <!-- [CHAR LIMIT=50] Like zen_mode_events, but part of a list, so lower case if needed -->
+  <string name="zen_mode_summary_events">ఈవెంట్</string>
+  <!-- [CHAR LIMIT=50] Like zen_mode_all_callers, but part of a list, so lower case if needed -->
+  <!-- [CHAR LIMIT=50] Like zen_mode_selected_callers, but part of a list, so lower case if needed -->
+  <string name="zen_mode_summary_selected_callers">ఎంచుకున్న కాలర్‌లు</string>
+  <!-- [CHAR LIMIT=50] Like zen_mode_repeat_callers, but part of a list, so lower case if needed -->
+  <!-- [CHAR LIMIT=50] Like zen_mode_all_messages, but part of a list, so lower case if needed -->
+  <!-- [CHAR LIMIT=50] Like zen_mode_selected_messages, but part of a list, so lower case if needed -->
+  <string name="zen_mode_summary_selected_messages">సందేశాలు ఎంచుకోబడ్డాయి</string>
   <!-- Notification sound timeout -->
   <!-- MSIM SIM status -->
   <string name="sim_card_status_title">SIM %d స్థితి</string>
@@ -317,7 +329,6 @@
   <string name="wake_when_plugged_or_unplugged_title">మేల్కొలుపు ప్లగ్</string>
   <string name="wake_when_plugged_or_unplugged_summary">విద్యుత్ ఆధారాన్ని అనుసంధానం చేసేటప్పుడు లేదా తొలిగించేటప్పుడు స్క్రీనును ఆన్ చేయండి</string>
   <!-- Heads-up -->
-  <!-- Encryption password -->
   <!-- Tethering & portable hotspot other category -->
   <string name="tethering_other_category_text">ఇతర</string>
   <!-- Wi-Fi tethering inactivity timeout -->
@@ -357,4 +368,11 @@
   <string name="sub_activate_failed">క్రియాశీలత విఫలమయింది.</string>
   <string name="sub_deactivate_success">SIM నిష్క్రియాత్మకం చేయబడింది.</string>
   <string name="sub_deactivate_failed">నిష్క్రియాత్మకం విఫలమయింది.</string>
+  <!-- About phone settings screen, setting option dialog title to show regulatory information [CHAR LIMIT=25] -->
+  <!-- SAR information -->
+  <string name="maximum_head_level">ప్రారంభం: %1$s W/kg</string>
+  <string name="maximum_body_level">ముఖ్య భాగం: %1$s W/kg</string>
+  <!-- IC Codes -->
+  <string name="ic_code_model">నమూనా %1$s</string>
+  <string name="ic_code_full">IC: %1$s</string>
 </resources>

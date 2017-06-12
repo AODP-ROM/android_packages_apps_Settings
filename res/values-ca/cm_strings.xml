@@ -50,7 +50,7 @@
   <string name="mod_api_level">Nivell de l\'API de AODP</string>
   <string name="mod_api_level_default">Desconegut</string>
   <!-- About phone screen, build date -->
-  <string name="build_date">Data d\'elaboració</string>
+  <string name="build_date">Data de compilació</string>
   <!-- CM Updater -->
   <string name="cmupdate_settings_title">Actualitzacions AODP</string>
   <!-- Names of categories of app ops tabs - extension of AOSP -->
@@ -314,6 +314,21 @@
   <string name="zen_mode_vibration_never">No vibris</string>
   <string name="zen_mode_vibration_calls_only">Només vibra per a les trucades</string>
   <string name="zen_mode_vibration_calls_and_notifications">Vibra per a les trucades i les notificacions</string>
+  <!-- Zen mode allowed event setting summary items -->
+  <!-- [CHAR LIMIT=50] Like zen_mode_reminders, but part of a list, so lower case if needed-->
+  <string name="zen_mode_summary_reminders">recordatoris</string>
+  <!-- [CHAR LIMIT=50] Like zen_mode_events, but part of a list, so lower case if needed -->
+  <string name="zen_mode_summary_events">esdeveniments</string>
+  <!-- [CHAR LIMIT=50] Like zen_mode_all_callers, but part of a list, so lower case if needed -->
+  <string name="zen_mode_summary_all_callers">tots els autors de trucades</string>
+  <!-- [CHAR LIMIT=50] Like zen_mode_selected_callers, but part of a list, so lower case if needed -->
+  <string name="zen_mode_summary_selected_callers">trucades seleccionades</string>
+  <!-- [CHAR LIMIT=50] Like zen_mode_repeat_callers, but part of a list, so lower case if needed -->
+  <string name="zen_mode_summary_repeat_callers">repeteix autors de trucades</string>
+  <!-- [CHAR LIMIT=50] Like zen_mode_all_messages, but part of a list, so lower case if needed -->
+  <string name="zen_mode_summary_all_messages">tots els missatges</string>
+  <!-- [CHAR LIMIT=50] Like zen_mode_selected_messages, but part of a list, so lower case if needed -->
+  <string name="zen_mode_summary_selected_messages">missatges seleccionats</string>
   <!-- Notification sound timeout -->
   <string name="app_notification_sound_timeout_title">Temps mínim entre els sons de notificació</string>
   <string name="app_notification_sound_timeout_summary_template">Permet sons o vibració no més d\'una vegada cada <xliff:g id="duration">%1$s</xliff:g></string>
@@ -355,12 +370,6 @@
   <!-- Heads-up -->
   <string name="heads_up_notifications_enabled_title">Notificacions emergents</string>
   <string name="heads_up_notifications_enabled_summary">Mostra les notificacions prioritàries en una petita finestra flotant</string>
-  <!-- Encryption password -->
-  <string name="crypt_keeper_change_password_title">Canvia la contrasenya de xifratge</string>
-  <string name="crypt_keeper_change_password_summary">Canvia la contrasenya utilitzada per al xifratge del dispositiu</string>
-  <string name="crypt_keeper_choose_your_password_header">Estableix la contrasenya de xifratge</string>
-  <string name="crypt_keeper_replace_password_title">Substitueix la contrasenya xifratge</string>
-  <string name="crypt_keeper_replace_password_summary">Esborra la contrasenya separada de xifratge</string>
   <!-- Tethering & portable hotspot other category -->
   <string name="tethering_other_category_text">Altres</string>
   <!-- Wi-Fi tethering inactivity timeout -->
@@ -411,4 +420,11 @@
   <string name="sub_activate_failed">L\'activació ha fallat.</string>
   <string name="sub_deactivate_success">SIM desactivada.</string>
   <string name="sub_deactivate_failed">La desactivació ha fallat.</string>
+  <!-- About phone settings screen, setting option dialog title to show regulatory information [CHAR LIMIT=25] -->
+  <!-- SAR information -->
+  <string name="maximum_head_level">Cap: %1$s W/kg</string>
+  <string name="maximum_body_level">Cos: %1$s W/kg</string>
+  <!-- IC Codes -->
+  <string name="ic_code_model">Model: %1$s</string>
+  <string name="ic_code_full">IC: %1$s</string>
 </resources>

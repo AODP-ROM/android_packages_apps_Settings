@@ -29,16 +29,16 @@
   <!-- Launch Dev Tools -->
   <string name="development_tools_title">Herramientas de desarrollo</string>
   <!-- Setting checkbox title for root access -->
-  <string name="root_access">Acceso administrativo</string>
-  <string name="root_access_warning_title">¿Permitir acceso administrativo?</string>
-  <string name="root_access_warning_message">¡Permitir a las aplicaciones solicitar acceso administrativo es muy peligroso y puede comprometer la seguridad del sistema!</string>
+  <string name="root_access">Acceso de Superusuario (root)</string>
+  <string name="root_access_warning_title">¿Permitir acceso de Superusuario?</string>
+  <string name="root_access_warning_message">¡Permitir a las aplicaciones solicitar acceso de Superusuario es muy peligroso y puede comprometer la seguridad del sistema!</string>
   <string name="root_access_none">Desactivado</string>
-  <string name="root_access_apps">Solo aplicaciones</string>
-  <string name="root_access_adb">Solo ADB</string>
+  <string name="root_access_apps">Sólo aplicaciones</string>
+  <string name="root_access_adb">Sólo ADB</string>
   <string name="root_access_all">Aplicaciones y ADB</string>
   <!-- Preference link for root appops -->
-  <string name="root_appops_title">Gestionar acceso administrativo (root)</string>
-  <string name="root_appops_summary">Ver y controlar las reglas administrativas</string>
+  <string name="root_appops_title">Gestionar acceso de Superusuario (root)</string>
+  <string name="root_appops_summary">Ver y controlar las reglas de Superusuario</string>
   <!-- About phone screen, AODP version -->
   <string name="mod_version">Versión de AODP</string>
   <string name="mod_version_default">Desconocido</string>
@@ -61,7 +61,7 @@
   <string name="app_ops_categories_device">Dispositivo</string>
   <string name="app_ops_categories_background">Fondo de pantalla</string>
   <string name="app_ops_categories_bootup">Arranque</string>
-  <string name="app_ops_categories_su">Acceso administrativo</string>
+  <string name="app_ops_categories_su">Acceso de Superusuario (root)</string>
   <!-- User display names for app ops codes - extension of AOSP -->
   <string name="app_ops_summaries_coarse_location">ubicación aproximada</string>
   <string name="app_ops_summaries_fine_location">ubicación precisa</string>
@@ -132,7 +132,7 @@
   <string name="app_ops_summaries_start_at_boot">iniciar en el arranque</string>
   <string name="app_ops_summaries_toggle_nfc">alternar NFC</string>
   <string name="app_ops_summaries_toggle_mobile_data">alternar datos móviles</string>
-  <string name="app_ops_summaries_superuser">acceso administrativo</string>
+  <string name="app_ops_summaries_superuser">acceso de Superusuario (root)</string>
   <!-- User display names for app ops codes - extension of AOSP -->
   <string name="app_ops_labels_coarse_location">Ubicación aproximada</string>
   <string name="app_ops_labels_fine_location">Ubicación precisa</string>
@@ -203,7 +203,7 @@
   <string name="app_ops_labels_start_at_boot">Iniciar en el arranque</string>
   <string name="app_ops_labels_toggle_nfc">Alternar NFC</string>
   <string name="app_ops_labels_toggle_mobile_data">Alternar datos móviles</string>
-  <string name="app_ops_labels_superuser">Acceso administrativo</string>
+  <string name="app_ops_labels_superuser">Acceso de Superusuario (root)</string>
   <!-- App ops permissions -->
   <string name="app_ops_permissions_allowed">Permitir</string>
   <string name="app_ops_permissions_ignored">Ignorado</string>
@@ -247,7 +247,7 @@
   <string name="memory_startup_apps_title">Aplicaciones iniciadas en el arranque</string>
   <!-- Advanced restart options -->
   <string name="advanced_reboot_title">Reinicio avanzado</string>
-  <string name="advanced_reboot_summary">Al desbloquear, incluir en el menú de apagado opciones para reiniciar en modo recovery, bootloader o realizar un reinicio rápido</string>
+  <string name="advanced_reboot_summary">Al activar esta opción, se incluirán en el menú de apagado opciones para reiniciar en modo recovery, bootloader o realizar un reinicio rápido</string>
   <!-- PIN scramble -->
   <string name="unlock_scramble_pin_layout_title">Disposición aleatoria</string>
   <string name="unlock_scramble_pin_layout_summary">Cambiar la disposición de los números del PIN para desbloquear el dispositivo</string>
@@ -314,6 +314,21 @@
   <string name="zen_mode_vibration_never">No vibrar</string>
   <string name="zen_mode_vibration_calls_only">Sólo vibrar para llamadas</string>
   <string name="zen_mode_vibration_calls_and_notifications">Vibración para llamadas y notificaciones</string>
+  <!-- Zen mode allowed event setting summary items -->
+  <!-- [CHAR LIMIT=50] Like zen_mode_reminders, but part of a list, so lower case if needed-->
+  <string name="zen_mode_summary_reminders">recordatorios</string>
+  <!-- [CHAR LIMIT=50] Like zen_mode_events, but part of a list, so lower case if needed -->
+  <string name="zen_mode_summary_events">eventos</string>
+  <!-- [CHAR LIMIT=50] Like zen_mode_all_callers, but part of a list, so lower case if needed -->
+  <string name="zen_mode_summary_all_callers">todos los autores de llamadas</string>
+  <!-- [CHAR LIMIT=50] Like zen_mode_selected_callers, but part of a list, so lower case if needed -->
+  <string name="zen_mode_summary_selected_callers">llamadores seleccionados</string>
+  <!-- [CHAR LIMIT=50] Like zen_mode_repeat_callers, but part of a list, so lower case if needed -->
+  <string name="zen_mode_summary_repeat_callers">repetir autores de llamadas</string>
+  <!-- [CHAR LIMIT=50] Like zen_mode_all_messages, but part of a list, so lower case if needed -->
+  <string name="zen_mode_summary_all_messages">todos los mensajes</string>
+  <!-- [CHAR LIMIT=50] Like zen_mode_selected_messages, but part of a list, so lower case if needed -->
+  <string name="zen_mode_summary_selected_messages">mensajes seleccionados</string>
   <!-- Notification sound timeout -->
   <string name="app_notification_sound_timeout_title">Tiempo mínimo entre los sonidos de notificación</string>
   <string name="app_notification_sound_timeout_summary_template">Permitir sonidos o vibraciones no más de una vez cada <xliff:g id="duration">%1$s </xliff:g></string>
@@ -355,12 +370,6 @@
   <!-- Heads-up -->
   <string name="heads_up_notifications_enabled_title">Notificaciones emergentes</string>
   <string name="heads_up_notifications_enabled_summary">Mostrar notificaciones prioritarias en una pequeña ventana flotante</string>
-  <!-- Encryption password -->
-  <string name="crypt_keeper_change_password_title">Cambiar contraseña de cifrado</string>
-  <string name="crypt_keeper_change_password_summary">Cambiar la contraseña usada para el cifrado del dispositivo</string>
-  <string name="crypt_keeper_choose_your_password_header">Establecer contraseña de cifrado</string>
-  <string name="crypt_keeper_replace_password_title">Reemplazar contraseña de cifrado</string>
-  <string name="crypt_keeper_replace_password_summary">Quitar contraseña de cifrado separado</string>
   <!-- Tethering & portable hotspot other category -->
   <string name="tethering_other_category_text">Otros</string>
   <!-- Wi-Fi tethering inactivity timeout -->
@@ -403,7 +412,7 @@
   <string name="sim_enabler_will_disable_sim_title">Atención</string>
   <string name="sim_enabler_need_switch_data_service">Se desactivará esta SIM y la SIM <xliff:g id="slotid">%1$s</xliff:g> se utilizará para servicios de datos. ¿Deseas continuar?</string>
   <string name="sim_enabler_airplane_on">No se puede realizar la operación mientras esté activado el modo avión.</string>
-  <string name="sim_enabler_in_call">No se puede realizar la operación mientras haya una llamada en curso.</string>
+  <string name="sim_enabler_in_call">Imposible realizar la operación mientras haya una llamada en curso.</string>
   <string name="sim_enabler_both_inactive">No es posible desactivar todas las tarjetas SIM</string>
   <string name="sim_enabler_enabling">Activando\u2026</string>
   <string name="sim_enabler_disabling">Desactivando\u2026</string>
@@ -411,4 +420,11 @@
   <string name="sub_activate_failed">Activación fallida.</string>
   <string name="sub_deactivate_success">SIM desactivada.</string>
   <string name="sub_deactivate_failed">Error de desactivación.</string>
+  <!-- About phone settings screen, setting option dialog title to show regulatory information [CHAR LIMIT=25] -->
+  <!-- SAR information -->
+  <string name="maximum_head_level">Cabeza: %1$s W/kg</string>
+  <string name="maximum_body_level">Cuerpo: %1$s W/kg</string>
+  <!-- IC Codes -->
+  <string name="ic_code_model">Modelo: %1$s</string>
+  <string name="ic_code_full">IC: %1$s</string>
 </resources>

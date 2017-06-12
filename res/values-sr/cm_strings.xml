@@ -315,6 +315,18 @@
   <string name="zen_mode_vibration_never">Без вибрације</string>
   <string name="zen_mode_vibration_calls_only">Вибрирај само за позиве</string>
   <string name="zen_mode_vibration_calls_and_notifications">Вибрирај за позиве и поруке</string>
+  <!-- Zen mode allowed event setting summary items -->
+  <!-- [CHAR LIMIT=50] Like zen_mode_reminders, but part of a list, so lower case if needed-->
+  <string name="zen_mode_summary_reminders">подсетници</string>
+  <!-- [CHAR LIMIT=50] Like zen_mode_events, but part of a list, so lower case if needed -->
+  <string name="zen_mode_summary_events">догађаји</string>
+  <!-- [CHAR LIMIT=50] Like zen_mode_all_callers, but part of a list, so lower case if needed -->
+  <!-- [CHAR LIMIT=50] Like zen_mode_selected_callers, but part of a list, so lower case if needed -->
+  <string name="zen_mode_summary_selected_callers">одабрани позиваоци</string>
+  <!-- [CHAR LIMIT=50] Like zen_mode_repeat_callers, but part of a list, so lower case if needed -->
+  <!-- [CHAR LIMIT=50] Like zen_mode_all_messages, but part of a list, so lower case if needed -->
+  <!-- [CHAR LIMIT=50] Like zen_mode_selected_messages, but part of a list, so lower case if needed -->
+  <string name="zen_mode_summary_selected_messages">одабране поруке</string>
   <!-- Notification sound timeout -->
   <string name="app_notification_sound_timeout_title">Минимални период између звукова поруке</string>
   <string name="app_notification_sound_timeout_summary_template">Дозволи звукове или вибрацију не више од једном сваких <xliff:g id="duration">%1$s</xliff:g></string>
@@ -356,12 +368,6 @@
   <!-- Heads-up -->
   <string name="heads_up_notifications_enabled_title">Искачуће поруке</string>
   <string name="heads_up_notifications_enabled_summary">Прикажи приоритетна обавештења и малом лебдећем прозору</string>
-  <!-- Encryption password -->
-  <string name="crypt_keeper_change_password_title">Промени шифровану лозинку</string>
-  <string name="crypt_keeper_change_password_summary">Промени лозинку која се користи за шифровање уређаја</string>
-  <string name="crypt_keeper_choose_your_password_header">Постави шифровану лозинку</string>
-  <string name="crypt_keeper_replace_password_title">Промени шифровану лозинку</string>
-  <string name="crypt_keeper_replace_password_summary">Уклони одвојену шифровану лозинку</string>
   <!-- Tethering & portable hotspot other category -->
   <string name="tethering_other_category_text">Друго</string>
   <!-- Wi-Fi tethering inactivity timeout -->
@@ -405,4 +411,11 @@
   <string name="sub_activate_failed">Активација није успела.</string>
   <string name="sub_deactivate_success">SIM деактивиран.</string>
   <string name="sub_deactivate_failed">Деактивација није успела.</string>
+  <!-- About phone settings screen, setting option dialog title to show regulatory information [CHAR LIMIT=25] -->
+  <!-- SAR information -->
+  <string name="maximum_head_level">Глава: %1$s W/kg</string>
+  <string name="maximum_body_level">Тело: %1$s W/kg</string>
+  <!-- IC Codes -->
+  <string name="ic_code_model">Модел: %1$s</string>
+  <string name="ic_code_full">IC: %1$s</string>
 </resources>

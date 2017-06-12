@@ -316,6 +316,21 @@
   <string name="zen_mode_vibration_never">Ne vibriraj</string>
   <string name="zen_mode_vibration_calls_only">Vibriraj samo za klice</string>
   <string name="zen_mode_vibration_calls_and_notifications">Vibriraj za klice in obvestila</string>
+  <!-- Zen mode allowed event setting summary items -->
+  <!-- [CHAR LIMIT=50] Like zen_mode_reminders, but part of a list, so lower case if needed-->
+  <string name="zen_mode_summary_reminders">opomniki</string>
+  <!-- [CHAR LIMIT=50] Like zen_mode_events, but part of a list, so lower case if needed -->
+  <string name="zen_mode_summary_events">dogodki</string>
+  <!-- [CHAR LIMIT=50] Like zen_mode_all_callers, but part of a list, so lower case if needed -->
+  <string name="zen_mode_summary_all_callers">vsi klicatelji</string>
+  <!-- [CHAR LIMIT=50] Like zen_mode_selected_callers, but part of a list, so lower case if needed -->
+  <string name="zen_mode_summary_selected_callers">izbrani klicatelji</string>
+  <!-- [CHAR LIMIT=50] Like zen_mode_repeat_callers, but part of a list, so lower case if needed -->
+  <string name="zen_mode_summary_repeat_callers">ponovi klicatelje</string>
+  <!-- [CHAR LIMIT=50] Like zen_mode_all_messages, but part of a list, so lower case if needed -->
+  <string name="zen_mode_summary_all_messages">vsa sporočila</string>
+  <!-- [CHAR LIMIT=50] Like zen_mode_selected_messages, but part of a list, so lower case if needed -->
+  <string name="zen_mode_summary_selected_messages">izbrana sporočila</string>
   <!-- Notification sound timeout -->
   <string name="app_notification_sound_timeout_title">Najmanjši čas med zvoki obvestil</string>
   <string name="app_notification_sound_timeout_summary_template">Najmanjši čas med zvoki ali vibriranji: <xliff:g id="duration">%1$s</xliff:g></string>
@@ -357,12 +372,6 @@
   <!-- Heads-up -->
   <string name="heads_up_notifications_enabled_title">Obvestila na zaslonu</string>
   <string name="heads_up_notifications_enabled_summary">Prikaži prednostna obvestila v majhnem lebdečem oknu</string>
-  <!-- Encryption password -->
-  <string name="crypt_keeper_change_password_title">Spremeni geslo za šifriranje</string>
-  <string name="crypt_keeper_change_password_summary">Spremeni geslo za šifriranje naprave</string>
-  <string name="crypt_keeper_choose_your_password_header">Nastavi geslo za šifriranje</string>
-  <string name="crypt_keeper_replace_password_title">Zamenjaj geslo za šifriranje</string>
-  <string name="crypt_keeper_replace_password_summary">Odstrani ločeno šifriranje gesla</string>
   <!-- Tethering & portable hotspot other category -->
   <string name="tethering_other_category_text">Drugo</string>
   <!-- Wi-Fi tethering inactivity timeout -->
@@ -413,4 +422,11 @@
   <string name="sub_activate_failed">Omogočanje je spodletelo.</string>
   <string name="sub_deactivate_success">Kartica SIM onemogočena.</string>
   <string name="sub_deactivate_failed">Onemogočanje je spodletelo.</string>
+  <!-- About phone settings screen, setting option dialog title to show regulatory information [CHAR LIMIT=25] -->
+  <!-- SAR information -->
+  <string name="maximum_head_level">Glava: %1$s W/kg</string>
+  <string name="maximum_body_level">Telo: %1$s W/kg</string>
+  <!-- IC Codes -->
+  <string name="ic_code_model">Model: %1$s</string>
+  <string name="ic_code_full">IC: %1$s</string>
 </resources>

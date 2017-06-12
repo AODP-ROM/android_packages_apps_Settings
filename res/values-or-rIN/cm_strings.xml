@@ -293,6 +293,18 @@
   <string name="increasing_ring_min_volume_title">ଭୋଲ୍ୟୁମ୍‍ ଆରଭ କରନ୍ତୁ</string>
   <string name="increasing_ring_ramp_up_time_title">ସମୟ ରାମ୍ପ୍‍-ଅପ୍‍ କରନ୍ତୁ</string>
   <!-- Allow vibration in zen mode -->
+  <!-- Zen mode allowed event setting summary items -->
+  <!-- [CHAR LIMIT=50] Like zen_mode_reminders, but part of a list, so lower case if needed-->
+  <string name="zen_mode_summary_reminders">ରିମେଣ୍ଡରଗୁଡିକ</string>
+  <!-- [CHAR LIMIT=50] Like zen_mode_events, but part of a list, so lower case if needed -->
+  <string name="zen_mode_summary_events">ଇଭେଣ୍ଟସମୂହ</string>
+  <!-- [CHAR LIMIT=50] Like zen_mode_all_callers, but part of a list, so lower case if needed -->
+  <!-- [CHAR LIMIT=50] Like zen_mode_selected_callers, but part of a list, so lower case if needed -->
+  <string name="zen_mode_summary_selected_callers">ଚୟନ କରାଯାଥିବା କଲର୍‍ଗୁଡିକ</string>
+  <!-- [CHAR LIMIT=50] Like zen_mode_repeat_callers, but part of a list, so lower case if needed -->
+  <!-- [CHAR LIMIT=50] Like zen_mode_all_messages, but part of a list, so lower case if needed -->
+  <!-- [CHAR LIMIT=50] Like zen_mode_selected_messages, but part of a list, so lower case if needed -->
+  <string name="zen_mode_summary_selected_messages">ଚୟନ କରାଯାଥିବା ସଂଦେଶଗୁଡିକ</string>
   <!-- Notification sound timeout -->
   <!-- MSIM SIM status -->
   <string name="sim_card_status_title">SIM %d ‍ସ୍ଥିତି</string>
@@ -317,7 +329,6 @@
   <string name="wake_when_plugged_or_unplugged_title">ପ୍ଲଗ୍‍କୁ ଉଠାନ୍ତୁ</string>
   <string name="wake_when_plugged_or_unplugged_summary">ଏକ ପାୱାର୍‍ ଉତ୍ସ ସଂଯୋଗ ବା ବିଛିନ୍ନ କରିବା ସମୟରେ ସ୍କ୍ରିନ୍‍ ଅନ୍‍ କରନ୍ତୁ</string>
   <!-- Heads-up -->
-  <!-- Encryption password -->
   <!-- Tethering & portable hotspot other category -->
   <string name="tethering_other_category_text">ଅନ୍ୟାନ୍ୟ</string>
   <!-- Wi-Fi tethering inactivity timeout -->
@@ -357,4 +368,11 @@
   <string name="sub_activate_failed">ଆକ୍ଟିଭେସନ୍‍ ବିଫଳ ହୋଇଛି।</string>
   <string name="sub_deactivate_success">SIM ଡିଆକ୍ଟିଭେଟ୍‍ ହୋଇଛି।</string>
   <string name="sub_deactivate_failed">ଡିଆକ୍ଟିଭେସନ୍‍ ବିଫଳ ହୋଇଛି।</string>
+  <!-- About phone settings screen, setting option dialog title to show regulatory information [CHAR LIMIT=25] -->
+  <!-- SAR information -->
+  <string name="maximum_head_level">ହେଡ: %1$s W/kg</string>
+  <string name="maximum_body_level">ବଡି: %1$s W/kg</string>
+  <!-- IC Codes -->
+  <string name="ic_code_model">ମଡେଲ୍: %1$s</string>
+  <string name="ic_code_full">IC %1$s</string>
 </resources>

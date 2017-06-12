@@ -234,6 +234,14 @@
   <string name="increasing_ring_min_volume_title">Lähtevaljusus</string>
   <string name="increasing_ring_ramp_up_time_title">Käivitamisetapi aeg</string>
   <!-- Allow vibration in zen mode -->
+  <!-- Zen mode allowed event setting summary items -->
+  <!-- [CHAR LIMIT=50] Like zen_mode_reminders, but part of a list, so lower case if needed-->
+  <!-- [CHAR LIMIT=50] Like zen_mode_events, but part of a list, so lower case if needed -->
+  <!-- [CHAR LIMIT=50] Like zen_mode_all_callers, but part of a list, so lower case if needed -->
+  <!-- [CHAR LIMIT=50] Like zen_mode_selected_callers, but part of a list, so lower case if needed -->
+  <!-- [CHAR LIMIT=50] Like zen_mode_repeat_callers, but part of a list, so lower case if needed -->
+  <!-- [CHAR LIMIT=50] Like zen_mode_all_messages, but part of a list, so lower case if needed -->
+  <!-- [CHAR LIMIT=50] Like zen_mode_selected_messages, but part of a list, so lower case if needed -->
   <!-- Notification sound timeout -->
   <!-- MSIM SIM status -->
   <string name="sim_card_status_title">SIM %d olek</string>
@@ -258,7 +266,6 @@
   <string name="wake_when_plugged_or_unplugged_title">Ärka laadija ühendamisel</string>
   <string name="wake_when_plugged_or_unplugged_summary">Lülita ekraan sisse kui ühendatakse või eemaldatakse toite allikas</string>
   <!-- Heads-up -->
-  <!-- Encryption password -->
   <!-- Tethering & portable hotspot other category -->
   <!-- Wi-Fi tethering inactivity timeout -->
   <string name="hotstpot_inactivity_timeout_never">Mitte kunagi</string>
@@ -281,4 +288,11 @@
   <string name="sim_enabler_airplane_on">Toimingut ei saa sooritada, kui lennukirežiim on aktiveeritud.</string>
   <string name="sim_enabler_in_call">Toimingut ei saa kõne ajal sooritada.</string>
   <string name="sim_enabler_both_inactive">Ei saa keelata kõiki SIM-kaarte</string>
+  <!-- About phone settings screen, setting option dialog title to show regulatory information [CHAR LIMIT=25] -->
+  <!-- SAR information -->
+  <string name="maximum_head_level">Pea: %1$s W/kg</string>
+  <string name="maximum_body_level">Keha: %1$s W/kg</string>
+  <!-- IC Codes -->
+  <string name="ic_code_model">Mudel: %1$s</string>
+  <string name="ic_code_full">IC: %1$s</string>
 </resources>

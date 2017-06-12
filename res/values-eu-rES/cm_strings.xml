@@ -274,7 +274,7 @@
   <!-- title for lock screen blur preference -->
   <string name="lockscreen_blur_enabled_title">Lausotu atzealtea</string>
   <!-- Proximity wake -->
-  <string name="proximity_wake_title">Ekidin ustekabeko esnatzea</string>
+  <string name="proximity_wake_title">Eragotzi ustekabeko esnatzea</string>
   <string name="proximity_wake_summary">Egiaztatu hurbiltasun sentsorea keinuen bidez eragindako esnatzeen aurretik</string>
   <!-- High touch sensitivity -->
   <string name="high_touch_sensitivity_title">Ukipen sentsibilitate altua</string>
@@ -314,6 +314,21 @@
   <string name="zen_mode_vibration_never">Ez bibratu</string>
   <string name="zen_mode_vibration_calls_only">Bibratu deiekin besterik ez</string>
   <string name="zen_mode_vibration_calls_and_notifications">Bibratu deiekin eta jakinarazpenekin</string>
+  <!-- Zen mode allowed event setting summary items -->
+  <!-- [CHAR LIMIT=50] Like zen_mode_reminders, but part of a list, so lower case if needed-->
+  <string name="zen_mode_summary_reminders">oroigarriak</string>
+  <!-- [CHAR LIMIT=50] Like zen_mode_events, but part of a list, so lower case if needed -->
+  <string name="zen_mode_summary_events">gertaerak</string>
+  <!-- [CHAR LIMIT=50] Like zen_mode_all_callers, but part of a list, so lower case if needed -->
+  <string name="zen_mode_summary_all_callers">deitzaile guztiak</string>
+  <!-- [CHAR LIMIT=50] Like zen_mode_selected_callers, but part of a list, so lower case if needed -->
+  <string name="zen_mode_summary_selected_callers">hautatutako deitzaileak</string>
+  <!-- [CHAR LIMIT=50] Like zen_mode_repeat_callers, but part of a list, so lower case if needed -->
+  <string name="zen_mode_summary_repeat_callers">deitzaile errepikakorrak</string>
+  <!-- [CHAR LIMIT=50] Like zen_mode_all_messages, but part of a list, so lower case if needed -->
+  <string name="zen_mode_summary_all_messages">mezu guztiak</string>
+  <!-- [CHAR LIMIT=50] Like zen_mode_selected_messages, but part of a list, so lower case if needed -->
+  <string name="zen_mode_summary_selected_messages">hautatutako mezuak</string>
   <!-- Notification sound timeout -->
   <string name="app_notification_sound_timeout_title">Gutxieneko denbora jakinarazpen soinuen artean</string>
   <string name="app_notification_sound_timeout_summary_template">Ez baimendu soinua edo bibrazioa aurrekotik denbora bat pasatu arte: <xliff:g id="duration">%1$s</xliff:g></string>
@@ -355,12 +370,6 @@
   <!-- Heads-up -->
   <string name="heads_up_notifications_enabled_title">Jakinarazpen flotatzaileak</string>
   <string name="heads_up_notifications_enabled_summary">Bistaratu lehentasunezko jakinarazpenak leiho flotatzaile txiki batean</string>
-  <!-- Encryption password -->
-  <string name="crypt_keeper_change_password_title">Aldatu zifratzearen pasahitza</string>
-  <string name="crypt_keeper_change_password_summary">Aldatu gailua zifratzeko erabilitako pasahitza</string>
-  <string name="crypt_keeper_choose_your_password_header">Ezarri zifratzearen pasahitza</string>
-  <string name="crypt_keeper_replace_password_title">Ordezkatu zifratzearen pasahitza</string>
-  <string name="crypt_keeper_replace_password_summary">Kendu aparteko zifratzearen pasahitza</string>
   <!-- Tethering & portable hotspot other category -->
   <string name="tethering_other_category_text">Beste bat</string>
   <!-- Wi-Fi tethering inactivity timeout -->
@@ -411,4 +420,11 @@
   <string name="sub_activate_failed">Aktibazioak huts egin du.</string>
   <string name="sub_deactivate_success">SIMa desaktibatu da.</string>
   <string name="sub_deactivate_failed">Desaktibazioak huts egin du.</string>
+  <!-- About phone settings screen, setting option dialog title to show regulatory information [CHAR LIMIT=25] -->
+  <!-- SAR information -->
+  <string name="maximum_head_level">Burua:%1$s W/kg</string>
+  <string name="maximum_body_level">Gorputza: %1$s W/kg</string>
+  <!-- IC Codes -->
+  <string name="ic_code_model">Modeloa: %1$s</string>
+  <string name="ic_code_full">IC: %1$s</string>
 </resources>

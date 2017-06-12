@@ -130,7 +130,7 @@
   <string name="app_ops_summaries_toggle_bluetooth">블루투스 켜기/끄기</string>
   <string name="app_ops_summaries_start_at_boot">부팅할 때 시작</string>
   <string name="app_ops_summaries_toggle_nfc">NFC 켜기/끄기</string>
-  <string name="app_ops_summaries_toggle_mobile_data">셀룰러 데이터 켜기/끄기</string>
+  <string name="app_ops_summaries_toggle_mobile_data">이동 통신망 데이터 켜기/끄기</string>
   <string name="app_ops_summaries_superuser">루트 권한</string>
   <!-- User display names for app ops codes - extension of AOSP -->
   <string name="app_ops_labels_coarse_location">대략적인 위치</string>
@@ -201,7 +201,7 @@
   <string name="app_ops_labels_toggle_bluetooth">블루투스 켜기/끄기</string>
   <string name="app_ops_labels_start_at_boot">부팅시 시작</string>
   <string name="app_ops_labels_toggle_nfc">NFC 켜기/끄기</string>
-  <string name="app_ops_labels_toggle_mobile_data">셀룰러 데이터 켜기/끄기</string>
+  <string name="app_ops_labels_toggle_mobile_data">이동 통신망 데이터 켜기/끄기</string>
   <string name="app_ops_labels_superuser">루트 권한</string>
   <!-- App ops permissions -->
   <string name="app_ops_permissions_allowed">허가</string>
@@ -313,6 +313,21 @@
   <string name="zen_mode_vibration_never">진동 안 함</string>
   <string name="zen_mode_vibration_calls_only">전화 수신 시에만 진동</string>
   <string name="zen_mode_vibration_calls_and_notifications">전화 및 알림 수신 시 진동</string>
+  <!-- Zen mode allowed event setting summary items -->
+  <!-- [CHAR LIMIT=50] Like zen_mode_reminders, but part of a list, so lower case if needed-->
+  <string name="zen_mode_summary_reminders">미리 알림</string>
+  <!-- [CHAR LIMIT=50] Like zen_mode_events, but part of a list, so lower case if needed -->
+  <string name="zen_mode_summary_events">이벤트</string>
+  <!-- [CHAR LIMIT=50] Like zen_mode_all_callers, but part of a list, so lower case if needed -->
+  <string name="zen_mode_summary_all_callers">모든 발신자</string>
+  <!-- [CHAR LIMIT=50] Like zen_mode_selected_callers, but part of a list, so lower case if needed -->
+  <string name="zen_mode_summary_selected_callers">선택한 발신자</string>
+  <!-- [CHAR LIMIT=50] Like zen_mode_repeat_callers, but part of a list, so lower case if needed -->
+  <string name="zen_mode_summary_repeat_callers">반복 발신자</string>
+  <!-- [CHAR LIMIT=50] Like zen_mode_all_messages, but part of a list, so lower case if needed -->
+  <string name="zen_mode_summary_all_messages">모든 메시지</string>
+  <!-- [CHAR LIMIT=50] Like zen_mode_selected_messages, but part of a list, so lower case if needed -->
+  <string name="zen_mode_summary_selected_messages">선택한 메세지</string>
   <!-- Notification sound timeout -->
   <string name="app_notification_sound_timeout_title">알림 소리 최소 간격</string>
   <string name="app_notification_sound_timeout_summary_template">매 <xliff:g id="duration">%1$s</xliff:g>마다 한 번씩만 소리 또는 진동을 허용합니다</string>
@@ -354,12 +369,6 @@
   <!-- Heads-up -->
   <string name="heads_up_notifications_enabled_title">헤드업 알림</string>
   <string name="heads_up_notifications_enabled_summary">작은 플로팅 창에 중요 알림 표시</string>
-  <!-- Encryption password -->
-  <string name="crypt_keeper_change_password_title">암호화 비밀번호 변경</string>
-  <string name="crypt_keeper_change_password_summary">기기 암호화에 사용하고 있던 비밀번호를 변경</string>
-  <string name="crypt_keeper_choose_your_password_header">암호화 비밀번호 설정</string>
-  <string name="crypt_keeper_replace_password_title">암호화 비밀번호 교체</string>
-  <string name="crypt_keeper_replace_password_summary">다른 암호화 비밀번호 제거</string>
   <!-- Tethering & portable hotspot other category -->
   <string name="tethering_other_category_text">기타</string>
   <!-- Wi-Fi tethering inactivity timeout -->
@@ -371,12 +380,12 @@
   <string name="hotstpot_inactivity_timeout_never_summary_text">휴대용 Wi\u2011Fi 핫스팟을 자동 종료하지 않음</string>
   <string name="hotstpot_inactivity_timeout_summary_text">휴대용 Wi\u2011Fi 핫스팟이 <xliff:g id="timeout">%1$s</xliff:g>간 활동이 없을 경우 끔</string>
   <!-- Per-app data restrictions -->
-  <string name="data_usage_app_restrict_data_category_title">이동 통신망 데이터 접속</string>
+  <string name="data_usage_app_restrict_data_category_title">이동통신망 데이터 접속</string>
   <string name="data_usage_app_restrict_wifi_category_title">Wi\u2011Fi 데이터 액세스</string>
   <!-- Title for switch to block app data usage [CHAR LIMIT=30] -->
-  <string name="data_usage_app_restrict_all_data_title">모든 이동 통신망 데이터 접속을 사용 안 함</string>
+  <string name="data_usage_app_restrict_all_data_title">모든 이동통신망 데이터 접속을 사용 안 함</string>
   <!-- Summary for switch to block app data usage [CHAR LIMIT=NONE] -->
-  <string name="data_usage_app_restrict_all_data_summary">이동 통신망을 통한 모든 데이터 접속을 차단</string>
+  <string name="data_usage_app_restrict_all_data_summary">이동통신망을 통한 모든 데이터 접속을 차단</string>
   <!-- Title for switch to block app data usage [CHAR LIMIT=30] -->
   <string name="data_usage_app_restrict_all_wifi_title">모든 Wi\u2011Fi 데이터 접속을 사용 안 함</string>
   <!-- Summary for switch to block app data usage [CHAR LIMIT=NONE] -->
@@ -395,6 +404,7 @@
   <string name="status_bar_double_tap_to_sleep_title">탭하여 화면 끄기</string>
   <string name="status_bar_double_tap_to_sleep_summary">상태 표시줄에 더블 탭하여 화면 끄기</string>
   <string name="sim_enabler_summary"><xliff:g id="displayName">%1$s</xliff:g> <xliff:g id="status" example="disabled">%2$s</xliff:g></string>
+  <string name="sim_enabled">사용 가능</string>
   <string name="sim_disabled">비활성화 됨</string>
   <string name="sim_missing">SIM 카드가 없거나 잘못되었습니다</string>
   <string name="sim_enabler_need_disable_sim">SIM 카드가 비활성화됩니다. 계속하시겠습니까?</string>
@@ -409,4 +419,11 @@
   <string name="sub_activate_failed">활성화 실패</string>
   <string name="sub_deactivate_success">SIM카드가 비활성화되었습니다.</string>
   <string name="sub_deactivate_failed">비활성화 실패</string>
+  <!-- About phone settings screen, setting option dialog title to show regulatory information [CHAR LIMIT=25] -->
+  <!-- SAR information -->
+  <string name="maximum_head_level">머리: %1$s W/kg</string>
+  <string name="maximum_body_level">몸: %1$s W/kg</string>
+  <!-- IC Codes -->
+  <string name="ic_code_model">모델: %1$s</string>
+  <string name="ic_code_full">IC: %1$s</string>
 </resources>

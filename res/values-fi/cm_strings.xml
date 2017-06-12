@@ -314,6 +314,21 @@
   <string name="zen_mode_vibration_never">Värinä pois</string>
   <string name="zen_mode_vibration_calls_only">Värinä vain puheluista</string>
   <string name="zen_mode_vibration_calls_and_notifications">Värinä puheluille ja ilmoituksille</string>
+  <!-- Zen mode allowed event setting summary items -->
+  <!-- [CHAR LIMIT=50] Like zen_mode_reminders, but part of a list, so lower case if needed-->
+  <string name="zen_mode_summary_reminders">muistutukset</string>
+  <!-- [CHAR LIMIT=50] Like zen_mode_events, but part of a list, so lower case if needed -->
+  <string name="zen_mode_summary_events">tapahtumat</string>
+  <!-- [CHAR LIMIT=50] Like zen_mode_all_callers, but part of a list, so lower case if needed -->
+  <string name="zen_mode_summary_all_callers">kaikki soittajat</string>
+  <!-- [CHAR LIMIT=50] Like zen_mode_selected_callers, but part of a list, so lower case if needed -->
+  <string name="zen_mode_summary_selected_callers">valitut soittajat</string>
+  <!-- [CHAR LIMIT=50] Like zen_mode_repeat_callers, but part of a list, so lower case if needed -->
+  <string name="zen_mode_summary_repeat_callers">toistuvat soittajat</string>
+  <!-- [CHAR LIMIT=50] Like zen_mode_all_messages, but part of a list, so lower case if needed -->
+  <string name="zen_mode_summary_all_messages">kaikki viestit</string>
+  <!-- [CHAR LIMIT=50] Like zen_mode_selected_messages, but part of a list, so lower case if needed -->
+  <string name="zen_mode_summary_selected_messages">valitut viestit</string>
   <!-- Notification sound timeout -->
   <string name="app_notification_sound_timeout_title">Vähimmäisväli ilmoitusäänissä</string>
   <string name="app_notification_sound_timeout_summary_template">Sallii äänen tai värinän vain seuraavin välein: <xliff:g id="duration">%1$s</xliff:g></string>
@@ -355,12 +370,6 @@
   <!-- Heads-up -->
   <string name="heads_up_notifications_enabled_title">Leijuvat ilmoitukset</string>
   <string name="heads_up_notifications_enabled_summary">Näytä tärkeät ilmoitukset pienessä kelluvassa ikkunassa</string>
-  <!-- Encryption password -->
-  <string name="crypt_keeper_change_password_title">Vaihda salauksen salasana</string>
-  <string name="crypt_keeper_change_password_summary">Vaihda laitteen salauksessa käytettävä salasana</string>
-  <string name="crypt_keeper_choose_your_password_header">Aseta salauksen salasana</string>
-  <string name="crypt_keeper_replace_password_title">Korvaa salauksen salasana</string>
-  <string name="crypt_keeper_replace_password_summary">Poista erillinen salauksen salasana</string>
   <!-- Tethering & portable hotspot other category -->
   <string name="tethering_other_category_text">Muut</string>
   <!-- Wi-Fi tethering inactivity timeout -->
@@ -411,4 +420,11 @@
   <string name="sub_activate_failed">Aktivointi epäonnistui.</string>
   <string name="sub_deactivate_success">SIM deaktivoitu.</string>
   <string name="sub_deactivate_failed">Deaktivointi epäonnistui.</string>
+  <!-- About phone settings screen, setting option dialog title to show regulatory information [CHAR LIMIT=25] -->
+  <!-- SAR information -->
+  <string name="maximum_head_level">Pää: %1$s W/kg</string>
+  <string name="maximum_body_level">Vartalo: %1$s W/kg</string>
+  <!-- IC Codes -->
+  <string name="ic_code_model">Malli: %1$s</string>
+  <string name="ic_code_full">IC: %1$s</string>
 </resources>

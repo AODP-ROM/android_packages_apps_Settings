@@ -18,6 +18,10 @@
 -->
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
   <!-- [CHAR LIMIT=NONE] Device Info screen. Countdown for user taps to enable development settings -->
+  <plurals name="show_dev_countdown_cm">
+    <item quantity="one">Tas a <xliff:g id="step_count">%1$d</xliff:g> pasu d\'habilitar los axustes de desendolcu.</item>
+    <item quantity="other">Tas a <xliff:g id="step_count">%1$d</xliff:g> pasos d\'habilitar los axustes de desendolcu.</item>
+  </plurals>
   <!-- [CHAR LIMIT=NONE] Device Info screen. Confirmation that developer settings are enabled -->
   <string name="show_dev_on_cm">¡Agora tán activaes les opciones de desendolcu!</string>
   <!-- [CHAR LIMIT=NONE] Device Info screen. Okay we get it, stop pressing, you already have it on -->
@@ -27,12 +31,16 @@
   <!-- Setting checkbox title for root access -->
   <string name="root_access">Accesu root</string>
   <string name="root_access_warning_title">¿Permitir l\'accesu root?</string>
+  <string name="root_access_warning_message">¡Permitir a les aplicaciones solicitar accesu alministrativu ye enforma peligroso y pue comprometer la seguridá del sistema!</string>
+  <string name="root_access_none">Desactivar</string>
   <string name="root_access_apps">Namái aplicaciones</string>
   <string name="root_access_adb">Namái ADB</string>
   <string name="root_access_all">Aplicaciones y ADB</string>
   <!-- Preference link for root appops -->
   <!-- About phone screen, AODP version -->
   <string name="mod_version">Versión de AODP</string>
+  <string name="root_appops_title">Xestionar accesos root</string>
+  <string name="root_appops_summary">Mira y controla les regles root</string>
   <!-- About phone screen, Device model -->
   <string name="device_model">Modelu del preséu</string>
   <!-- About phone screen, Device name -->
@@ -40,6 +48,7 @@
   <!-- About phone screen, AODP Api Level -->
   <string name="mod_api_level">Nivel d\'API AODP</string>
   <!-- About phone screen, build date -->
+  <string name="build_date">Data de compilación</string>
   <!-- CM Updater -->
   <string name="cmupdate_settings_title">Anovamientos AODP</string>
   <!-- Names of categories of app ops tabs - extension of AOSP -->
@@ -173,6 +182,17 @@
   <!-- Increasing ring tone volume -->
   <string name="increasing_ring_min_volume_title">Volume inicial</string>
   <!-- Allow vibration in zen mode -->
+  <!-- Zen mode allowed event setting summary items -->
+  <!-- [CHAR LIMIT=50] Like zen_mode_reminders, but part of a list, so lower case if needed-->
+  <!-- [CHAR LIMIT=50] Like zen_mode_events, but part of a list, so lower case if needed -->
+  <!-- [CHAR LIMIT=50] Like zen_mode_all_callers, but part of a list, so lower case if needed -->
+  <string name="zen_mode_summary_all_callers">tolos que llamen</string>
+  <!-- [CHAR LIMIT=50] Like zen_mode_selected_callers, but part of a list, so lower case if needed -->
+  <!-- [CHAR LIMIT=50] Like zen_mode_repeat_callers, but part of a list, so lower case if needed -->
+  <string name="zen_mode_summary_repeat_callers">repitir tolos que llamen</string>
+  <!-- [CHAR LIMIT=50] Like zen_mode_all_messages, but part of a list, so lower case if needed -->
+  <string name="zen_mode_summary_all_messages">tolos mensaxes</string>
+  <!-- [CHAR LIMIT=50] Like zen_mode_selected_messages, but part of a list, so lower case if needed -->
   <!-- Notification sound timeout -->
   <string name="app_notification_sound_timeout_title">Tiempu mínimo ente soníos d\'avisu</string>
   <string name="app_notification_sound_timeout_summary_template">Permite soníos o vibración namái una vegada cada <xliff:g id="duration">%1$s</xliff:g></string>
@@ -192,18 +212,15 @@
   <!-- Format string for fingerprint location message -->
   <!-- Fingerprint sensor locations -->
   <!-- Wi-Fi region code -->
+  <string name="wifi_setting_countrycode_title">Códigu de rexón Wi\u2011Fi</string>
   <!-- Wi-Fi settings screen, setting summary for setting the wifi frequency band [CHAR LIMIT=50]-->
+  <string name="wifi_setting_countrycode_summary">Especifica\'l códigu de rexón pa Wi\u2011Fi</string>
   <!-- Wi-Fi settings screen, error message when the frequency band could not be set [CHAR LIMIT=50]. -->
+  <string name="wifi_setting_countrycode_error">Hebo un problema al afitar el códigu de rexón.</string>
   <!-- Wake on plug -->
   <!-- Heads-up -->
   <string name="heads_up_notifications_enabled_title">Avisos emerxentes</string>
   <string name="heads_up_notifications_enabled_summary">Amuesa los avisos prioritarios nuna ventana pequeña flotante</string>
-  <!-- Encryption password -->
-  <string name="crypt_keeper_change_password_title">Camudar contraseña de cifráu</string>
-  <string name="crypt_keeper_change_password_summary">Camuda la contraseña usada pal cifráu del preséu</string>
-  <string name="crypt_keeper_choose_your_password_header">Afitar contraseña de cifráu</string>
-  <string name="crypt_keeper_replace_password_title">Trocar contraseña de cifráu</string>
-  <string name="crypt_keeper_replace_password_summary">Desanicia la contraseña de cifráu separtada</string>
   <!-- Tethering & portable hotspot other category -->
   <!-- Wi-Fi tethering inactivity timeout -->
   <string name="hotstpot_inactivity_timeout_never">Enxamás</string>
@@ -214,9 +231,13 @@
   <string name="data_usage_app_restrict_data_category_title">Accesu de datos móviles</string>
   <string name="data_usage_app_restrict_wifi_category_title">Accesu de datos Wi\u2011Fi</string>
   <!-- Title for switch to block app data usage [CHAR LIMIT=30] -->
+  <string name="data_usage_app_restrict_all_data_title">Deshabilitar datos móviles</string>
   <!-- Summary for switch to block app data usage [CHAR LIMIT=NONE] -->
+  <string name="data_usage_app_restrict_all_data_summary">Evita cualesquier accesu de datos per redes móviles</string>
   <!-- Title for switch to block app data usage [CHAR LIMIT=30] -->
+  <string name="data_usage_app_restrict_all_wifi_title">Deshabilitar tol accesu a datos Wi\u2011Fi</string>
   <!-- Summary for switch to block app data usage [CHAR LIMIT=NONE] -->
+  <string name="data_usage_app_restrict_all_wifi_summary">Evita cualesquier accesu a datos per redes Wi\u2011Fi</string>
   <!-- Volume link notification -->
   <string name="volume_link_notification_title">Enllazar volume del timbre y avisos</string>
   <!-- Launch music player when headset is connected -->
@@ -227,4 +248,10 @@
   <string name="update_recovery_summary">Anueva\'l recovery integráu colos anovamientos del sistema</string>
   <!-- Status bar - double tap to sleep -->
   <string name="status_bar_double_tap_to_sleep_summary">Calcu doblu na barra d\'estáu pa prendela</string>
+  <string name="sim_enabled">habilitada</string>
+  <!-- About phone settings screen, setting option dialog title to show regulatory information [CHAR LIMIT=25] -->
+  <!-- SAR information -->
+  <string name="maximum_body_level">Cuerpu: %1$s W/kg</string>
+  <!-- IC Codes -->
+  <string name="ic_code_model">Modelu: %1$s</string>
 </resources>
