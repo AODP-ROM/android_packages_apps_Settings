@@ -87,7 +87,6 @@
   <string name="app_ops_summaries_read_icc_sms">ICC-SMS lesen</string>
   <string name="app_ops_summaries_write_icc_sms">ICC-SMS schreiben</string>
   <string name="app_ops_summaries_modify_settings">Einstellungen ändern</string>
-  <string name="app_ops_summaries_draw_on_top">An oberste Position ziehen</string>
   <string name="app_ops_summaries_access_notifications">Auf Benachrichtigungen zugreifen</string>
   <string name="app_ops_summaries_camera">Kamera</string>
   <string name="app_ops_summaries_record_audio">Audio aufzeichnen</string>
@@ -158,7 +157,6 @@
   <string name="app_ops_labels_read_icc_sms">ICC-SMS lesen</string>
   <string name="app_ops_labels_write_icc_sms">ICC-SMS schreiben</string>
   <string name="app_ops_labels_modify_settings">Einstellungen ändern</string>
-  <string name="app_ops_labels_draw_on_top">An oberste Position ziehen</string>
   <string name="app_ops_labels_access_notifications">Auf Benachrichtigungen zugreifen</string>
   <string name="app_ops_labels_camera">Kamera</string>
   <string name="app_ops_labels_record_audio">Audio aufzeichnen</string>
@@ -253,6 +251,10 @@
   <string name="unlock_scramble_pin_layout_summary">Bei jedem Entsperrversuch die Ziffernanordnung zufällig neu wählen</string>
   <!-- lock screen visualizer -->
   <string name="lockscreen_visualizer_title">Musikvisualisierung anzeigen</string>
+  <!-- Lock screen cover art -->
+  <string name="lockscreen_media_art_title">Albumcover anzeigen</string>
+  <!-- Double tap to sleep on keyguard -->
+  <string name="double_tap_sleep_anywhere_title">Doppelt tippen, um das Display auszuschalten</string>
   <!-- Protected apps lockpattern reset button -->
   <string name="lockpattern_reset_button">Muster zurücksetzen</string>
   <string name="lockpattern_settings_reset_summary">Geben Sie die Adresse Ihres primären E-Mail-Kontos und das dazugehörige Passwort ein, um das Muster zurückzusetzen.</string>

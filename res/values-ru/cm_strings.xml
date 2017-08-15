@@ -247,13 +247,17 @@
   <!-- Memory -->
   <string name="memory_startup_apps_title">Запущено при включении устройства</string>
   <!-- Advanced restart options -->
-  <string name="advanced_reboot_title">Варианты перезагрузки</string>
-  <string name="advanced_reboot_summary">Показывать дополнительные опции перезагрузки устройства (в загрузчик, режим восстановления или перезапуска интерфейса) в меню при долгом нажатии</string>
+  <string name="advanced_reboot_title">Варианты перезапуска</string>
+  <string name="advanced_reboot_summary">Показывать дополнительные опции перезапуска устройства (перезапуск оболочки, переход в загрузчик или режим восстановления) в меню при долгом нажатии</string>
   <!-- PIN scramble -->
   <string name="unlock_scramble_pin_layout_title">Перемешивать кнопки</string>
   <string name="unlock_scramble_pin_layout_summary">Переставлять кнопки ввода PIN-кода в случайном порядке</string>
   <!-- lock screen visualizer -->
   <string name="lockscreen_visualizer_title">Визуализация спектра музыки</string>
+  <!-- Lock screen cover art -->
+  <string name="lockscreen_media_art_title">Отображать обложку мультимедиа</string>
+  <!-- Double tap to sleep on keyguard -->
+  <string name="double_tap_sleep_anywhere_title">Выключать экран при двойном нажатии</string>
   <!-- Protected apps lockpattern reset button -->
   <string name="lockpattern_reset_button">Сбросить граф. ключ</string>
   <string name="lockpattern_settings_reset_summary">Введите адрес эл. почты основного аккаунта и соответствующий пароль для сброса граф. ключа</string>

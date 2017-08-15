@@ -19,13 +19,13 @@
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
   <!-- [CHAR LIMIT=NONE] Device Info screen. Countdown for user taps to enable development settings -->
   <plurals name="show_dev_countdown_cm">
-    <item quantity="one">Garapen ezarpenak gaitzeko urrats <xliff:g id="step_count">%1$d</xliff:g>era zaude.</item>
-    <item quantity="other">Garapen ezarpenak gaitzeko <xliff:g id="step_count">%1$d</xliff:g> urratsetara zaude.</item>
+    <item quantity="one">Garatzaileen aukerak gaitzeko urrats <xliff:g id="step_count">%1$d</xliff:g>era zaude.</item>
+    <item quantity="other">Garatzaileen aukerak gaitzeko <xliff:g id="step_count">%1$d</xliff:g> urratsera zaude.</item>
   </plurals>
   <!-- [CHAR LIMIT=NONE] Device Info screen. Confirmation that developer settings are enabled -->
-  <string name="show_dev_on_cm">Garapen ezarpenak gaitu dituzu!</string>
+  <string name="show_dev_on_cm">Garatzaileen aukerak gaitu dituzu!</string>
   <!-- [CHAR LIMIT=NONE] Device Info screen. Okay we get it, stop pressing, you already have it on -->
-  <string name="show_dev_already_cm">Ez da behar, aurretik gaitu dituzu garapen ezarpenak.</string>
+  <string name="show_dev_already_cm">Ez da behar, aurretik gaitu dituzu garatzaileek aukerak.</string>
   <!-- Launch Dev Tools -->
   <string name="development_tools_title">Garapen tresnak</string>
   <!-- Setting checkbox title for root access -->
@@ -253,6 +253,10 @@
   <string name="unlock_scramble_pin_layout_summary">PIN zenbakiaren antolaketa nahastu gailua desblokeatzean</string>
   <!-- lock screen visualizer -->
   <string name="lockscreen_visualizer_title">Bistaratu musika irudikatzea</string>
+  <!-- Lock screen cover art -->
+  <string name="lockscreen_media_art_title">Bistaratu azalaren irudia</string>
+  <!-- Double tap to sleep on keyguard -->
+  <string name="double_tap_sleep_anywhere_title">Birritan edonon lokartzeko</string>
   <!-- Protected apps lockpattern reset button -->
   <string name="lockpattern_reset_button">Leheneratu eredua</string>
   <string name="lockpattern_settings_reset_summary">Idatzi e-posta kontu nagusia eta bere pasahitza eredu blokeoa kentzeko</string>
@@ -398,7 +402,7 @@
   <string name="headset_connect_player_summary">Abiatu musika erreproduzigailu lehenetsia aurikularrak konektatzean</string>
   <!-- Update recovery -->
   <string name="update_recovery_title">Eguneratu berreskuratzea</string>
-  <string name="update_recovery_summary">Eguneratu berreskuratzea sistema-eguneraketekin</string>
+  <string name="update_recovery_summary">Eguneratu berreskuratzea sistema-eguneratzeekin</string>
   <string name="update_recovery_on_warning">OHARRA: Ezaugarri hau gaitzean, instalatutako berreskuratze irudia oraingo sistema eragilearen bertsio bera duen batekin ordeztuko da.\n\nZure berreskuratze irudia sistemaren eguneraketekin batera eguneratuko da, etorkizuneko bertsioekin bateragarritasuna bermatzea lagunduz.\n\nEzaugarri hau gaitu nahi duzu?</string>
   <string name="update_recovery_off_warning">KONTUZ: Ezaugarri hau ezgaitzean, instalatutako berreskuratze irudia ez da eguneratuko sistema eragilearekin batera.\n\nEtorkizuneko sistema eragilearen eguneraketak agian ezin izango dira instalatu zaharkitutako edo pertsonalizatutako berreskuratze irudietan.\n\n Ziur ezaugarri hau ezgaitu nahi duzula?</string>
   <!-- Status bar - double tap to sleep -->
