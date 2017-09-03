@@ -181,7 +181,7 @@ public class AppOpsDetails extends SettingsPreferenceFragment {
                  continue;
             }
             List<AppOpsState.AppOpEntry> entries = mState.buildState(tpl,
-                    mPackageInfo.applicationInfo.uid, mPackageInfo.packageName);
+                    mPackageInfo.applicationInfo.uid, mPackageInfo.packageName, true);
             for (final AppOpsState.AppOpEntry entry : entries) {
                 final AppOpsManager.OpEntry firstOp = entry.getOpEntry(0);
                 Drawable icon = null;
@@ -235,7 +235,7 @@ public class AppOpsDetails extends SettingsPreferenceFragment {
                             String value = newValue.toString();
                             int selectedIndex = listPref.findIndexOfValue(value);
                             mAppOps.setMode(switchOp, uid, pkgName, positionToMode(selectedIndex));
-                            String summary = getSummary(MODE_ENTRIES[selectedIndex],
+                            String summary = getSummary(listPref.getEntries()[selectedIndex],
                                     entry.getCountsText(res), entry.getTimeText(res, true));
                             listPref.setSummary(summary);
                             return true;
